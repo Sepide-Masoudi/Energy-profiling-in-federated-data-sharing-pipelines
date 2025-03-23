@@ -395,7 +395,7 @@ ArrayList<PipelineEnergyConsumption> pipelineEnergyConsumptions = new ArrayList<
 
         FileOutputStream ops = null;
         try {
-            String filePath = "./pipeline_model_output-"+ getRandomNumber(0, 100) +".xlsx" ;
+            String filePath = "./pipeline_list_output-"+ getRandomNumber(0, 100) +".xlsx" ;
             ops = new FileOutputStream(new File(filePath));
             workbook.write(ops);
             workbook.close();
